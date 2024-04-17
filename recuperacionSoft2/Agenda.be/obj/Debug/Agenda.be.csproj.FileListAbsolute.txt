@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.be\bin\Debug\Agenda.be.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.be\bin\Debug\Agenda.be.pdb
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.be\obj\Debug\Agenda.be.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.be\obj\Debug\Agenda.be.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.be\obj\Debug\Agenda.be.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.be\obj\Debug\Agenda.be.pdb

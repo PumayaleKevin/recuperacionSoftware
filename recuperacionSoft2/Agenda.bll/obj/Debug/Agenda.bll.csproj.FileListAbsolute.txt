@@ -1,0 +1,14 @@
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.bll.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.bll.pdb
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.be.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.dal.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.be.pdb
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.dal.pdb
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\Agenda.dal.dll.config
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\obj\Debug\Agenda.bll.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\obj\Debug\Agenda.bll.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\obj\Debug\Agenda.bll.csproj.Up2Date
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\obj\Debug\Agenda.bll.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.bll\obj\Debug\Agenda.bll.pdb

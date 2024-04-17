@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="turistas_software2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="clientes">
+    <Key>
+      <PropertyRef Name="id_clientes" />
+    </Key>
+    <Property Name="id_clientes" Type="Int32" Nullable="false" />
+    <Property Name="nombres" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="edad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lugarVisita" Relationship="Self.FK__lugarVisi__id_cl__4BAC3F29" FromRole="clientes" ToRole="lugarVisita" />
+  </EntityType>
+  <EntityType Name="lugarVisita">
+    <Key>
+      <PropertyRef Name="id_lugarVisita" />
+    </Key>
+    <Property Name="id_lugarVisita" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tipo_cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="id_clientes" Type="Int32" />
+    <NavigationProperty Name="clientes" Relationship="Self.FK__lugarVisi__id_cl__4BAC3F29" FromRole="lugarVisita" ToRole="clientes" />
+  </EntityType>
+  <Association Name="FK__lugarVisi__id_cl__4BAC3F29">
+    <End Role="clientes" Type="Self.clientes" Multiplicity="0..1" />
+    <End Role="lugarVisita" Type="Self.lugarVisita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clientes">
+        <PropertyRef Name="id_clientes" />
+      </Principal>
+      <Dependent Role="lugarVisita">
+        <PropertyRef Name="id_clientes" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="turistas_software2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clientes" EntityType="Self.clientes" />
+    <EntitySet Name="lugarVisita" EntityType="Self.lugarVisita" />
+    <AssociationSet Name="FK__lugarVisi__id_cl__4BAC3F29" Association="Self.FK__lugarVisi__id_cl__4BAC3F29">
+      <End Role="clientes" EntitySet="clientes" />
+      <End Role="lugarVisita" EntitySet="lugarVisita" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

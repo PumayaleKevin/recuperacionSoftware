@@ -1,0 +1,12 @@
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\Agenda.dal.dll.config
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\Agenda.dal.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\Agenda.dal.pdb
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\Agenda.be.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\Agenda.be.pdb
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\obj\Debug\Agenda.dal.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\obj\Debug\Agenda.dal.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\obj\Debug\Agenda.dal.csproj.Up2Date
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\obj\Debug\Agenda.dal.dll
+C:\Users\USER\Documents\recuperacionSoft2\Agenda.dal\obj\Debug\Agenda.dal.pdb

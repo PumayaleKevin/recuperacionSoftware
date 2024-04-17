@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="turistas_software2ModelStoreContainer" CdmEntityContainer="turistas_software2Entities">
+    <EntitySetMapping Name="clientes">
+      <EntityTypeMapping TypeName="turistas_software2Model.clientes">
+        <MappingFragment StoreEntitySet="clientes">
+          <ScalarProperty Name="id_clientes" ColumnName="id_clientes" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lugarVisita">
+      <EntityTypeMapping TypeName="turistas_software2Model.lugarVisita">
+        <MappingFragment StoreEntitySet="lugarVisita">
+          <ScalarProperty Name="id_lugarVisita" ColumnName="id_lugarVisita" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="tipo_cliente" ColumnName="tipo_cliente" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="id_clientes" ColumnName="id_clientes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
